@@ -14,7 +14,7 @@ Gem::Specification.new do |gem|
   gem.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
   gem.name          = "omniauth-ing"
   gem.require_paths = ["lib"]
-  gem.version       = OmniAuth::ING::VERSION
+  gem.version       = OmniAuth::Ing::VERSION
 
   gem.add_dependency 'omniauth', '~> 1.5'
   gem.add_dependency 'omniauth-oauth2', '>= 1.4.0', '< 2.0'
